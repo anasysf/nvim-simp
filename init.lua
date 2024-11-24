@@ -1,4 +1,5 @@
 require 'ayem.core.remaps'
+require 'ayem.core.base'
 require 'ayem.lazy'
 require 'ayem.core.editor'
 require 'ayem.core.maps'
