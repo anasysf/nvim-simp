@@ -12,6 +12,7 @@ local ensure_installed = {
     'html',
     'lua_ls',
     'rust_analyzer',
+    'tailwindcss',
     'ts_ls',
 }
 
