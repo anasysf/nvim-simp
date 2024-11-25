@@ -9,6 +9,7 @@ if not mlsp_ok then
 end
 
 local ensure_installed = {
+    'html',
     'lua_ls',
     'rust_analyzer',
     'ts_ls',
