@@ -14,11 +14,11 @@ local ensure_installed = {
     'rust_analyzer',
     'tailwindcss',
     'ts_ls',
+    'taplo',
+    'jsonls',
 }
 
-mlsp.setup {
-    ensure_installed = ensure_installed,
-}
+mlsp.setup { ensure_installed = ensure_installed }
 
 local function on_attach(_, bufnr)
     local keymap = vim.keymap
@@ -45,9 +45,7 @@ local function on_attach(_, bufnr)
 end
 
 local function setup()
-    local server_opts = {
-        on_attach = on_attach,
-    }
+    local server_opts = { on_attach = on_attach }
 
     for _, server in pairs(ensure_installed) do
         local server_ok, server_name = pcall(require, 'ayem.lspconfig.servers.' .. server)
