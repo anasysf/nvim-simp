@@ -10,12 +10,14 @@ end
 
 local ensure_installed = {
     'html',
+    'intelephense',
+    'jsonls',
     'lua_ls',
     'rust_analyzer',
     'tailwindcss',
-    'ts_ls',
     'taplo',
-    'jsonls',
+    'ts_ls',
+    'twiggy_language_server',
 }
 
 mlsp.setup { ensure_installed = ensure_installed }

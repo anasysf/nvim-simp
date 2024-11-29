@@ -14,9 +14,12 @@ local ensure_installed = {
     'lua',
     'markdown',
     'markdown_inline',
+    'php',
+    'phpdoc',
     'rust',
     'toml',
     'tsx',
+    'twig',
     'typescript',
 }
 
