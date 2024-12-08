@@ -16,6 +16,6 @@ return {
             validate = {
                 enable = true,
             },
-        }
-    }
+        },
+    },
 }

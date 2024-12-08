@@ -9,6 +9,7 @@ if not mlsp_ok then
 end
 
 local ensure_installed = {
+    'bashls',
     'html',
     'intelephense',
     'jsonls',
