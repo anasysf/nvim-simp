@@ -16,6 +16,8 @@ local ensure_installed = {
     'luadoc',
     'markdown',
     'markdown_inline',
+    'php',
+    'phpdoc',
     'tmux',
     'toml',
     'twig',
