@@ -8,13 +8,17 @@ if not ok then
 end
 
 local ensure_installed = {
+    'css',
     'gitignore',
+    'html',
+    'javascript',
     'lua',
     'luadoc',
     'markdown',
     'markdown_inline',
     'tmux',
     'toml',
+    'twig',
     'vimdoc',
 }
 
