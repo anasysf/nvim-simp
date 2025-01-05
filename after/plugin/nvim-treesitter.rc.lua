@@ -16,12 +16,9 @@ local ensure_installed = {
     'luadoc',
     'markdown',
     'markdown_inline',
-<<<<<<< HEAD
     'php',
     'phpdoc',
-=======
     'rust',
->>>>>>> 820caac (rust)
     'tmux',
     'toml',
     'twig',
