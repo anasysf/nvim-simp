@@ -11,6 +11,7 @@ local ensure_installed = {
     'css',
     'gitignore',
     'html',
+    'java',
     'javascript',
     'lua',
     'luadoc',
@@ -23,6 +24,7 @@ local ensure_installed = {
     'toml',
     'twig',
     'vimdoc',
+    'xml',
 }
 
 configs.setup {
