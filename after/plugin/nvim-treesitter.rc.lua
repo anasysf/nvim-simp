@@ -8,11 +8,15 @@ if not ok then
 end
 
 local ensure_installed = {
+    'comment',
     'css',
     'gitignore',
     'html',
     'java',
     'javascript',
+    'jsdoc',
+    'json',
+    'jsonc',
     'lua',
     'luadoc',
     'markdown',
@@ -23,6 +27,7 @@ local ensure_installed = {
     'tmux',
     'toml',
     'twig',
+    'typescript',
     'vimdoc',
     'xml',
 }
