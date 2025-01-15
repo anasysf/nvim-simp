@@ -8,7 +8,14 @@ if not mason_lspconfig_ok then
     return vim.notify('COULD NOT LOAD MASON-LSPCONFIG', vim.log.levels.ERROR, { title = 'MASON-LSPCONFIG' })
 end
 
-local ensure_installed = { 'lua_ls', 'ts_ls' }
+local ensure_installed = {
+    'css_variables',
+    'cssls',
+    'cssmodules_ls',
+    'html',
+    'lua_ls',
+    'ts_ls',
+}
 
 mason_lspconfig.setup { ensure_installed = ensure_installed }
 
