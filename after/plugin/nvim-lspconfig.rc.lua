@@ -14,7 +14,9 @@ local ensure_installed = {
     'cssmodules_ls',
     'html',
     'lua_ls',
+    'rust_analyzer',
     'ts_ls',
+    'twiggy_language_server',
 }
 
 mason_lspconfig.setup { ensure_installed = ensure_installed }
