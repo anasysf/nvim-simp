@@ -15,6 +15,7 @@ local ensure_installed = {
     'html',
     'jsonls',
     'lua_ls',
+    'intelephense',
     'rust_analyzer',
     'taplo',
     'ts_ls',
