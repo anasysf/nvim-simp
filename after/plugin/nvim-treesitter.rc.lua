@@ -27,6 +27,7 @@ local ensure_installed = {
     'rust',
     'tmux',
     'toml',
+    'tsx',
     'twig',
     'typescript',
     'vimdoc',

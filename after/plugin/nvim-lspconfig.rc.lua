@@ -13,8 +13,10 @@ local ensure_installed = {
     'cssls',
     'cssmodules_ls',
     'html',
+    'jsonls',
     'lua_ls',
     'rust_analyzer',
+    'taplo',
     'ts_ls',
     'twiggy_language_server',
 }
