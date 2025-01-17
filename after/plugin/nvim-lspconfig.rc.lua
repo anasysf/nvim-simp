@@ -14,6 +14,7 @@ local ensure_installed = {
     'cssmodules_ls',
     'html',
     'jsonls',
+    'jdtls',
     'lua_ls',
     'intelephense',
     'rust_analyzer',
