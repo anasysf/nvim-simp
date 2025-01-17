@@ -24,6 +24,7 @@ local ensure_installed = {
     'markdown_inline',
     'php',
     'phpdoc',
+    'properties',
     'rust',
     'tmux',
     'toml',
