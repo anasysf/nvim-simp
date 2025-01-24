@@ -9,6 +9,8 @@ opt.cursorline = true
 opt.colorcolumn = '100'
 
 local space = '·'
+
+opt.list = true
 opt.listchars:append {
     tab = '│─',
     multispace = space,
