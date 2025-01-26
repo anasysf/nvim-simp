@@ -9,6 +9,7 @@ if not mason_lspconfig_ok then
 end
 
 local ensure_installed = {
+    'clangd',
     'css_variables',
     'cssls',
     'cssmodules_ls',
